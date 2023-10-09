@@ -1,0 +1,31 @@
+#for{
+    background-color: yellow;
+    width: 500px;
+    height: fit-content;
+    width: fit-content;
+}
+#mum{
+    border: 2px solid white;
+    width: fit-content;
+    height: fit-content;
+    padding: 20px;
+    position: relative;
+    left: 300px;
+    top: 20px;
+}
+.werey{
+    
+        
+        color: red;
+        animation-name: example;
+        animation-duration: 10s;
+}
+      
+      @keyframes example{
+        0%   {color: red;}
+        100%  {color: yellow;}
+        50%  {color: blue;}
+        100% {color: green;}
+      }
+
+

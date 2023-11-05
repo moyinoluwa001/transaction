@@ -1,5 +1,6 @@
+
 #for{
-    background-color: yellow;
+    background-color:rgb(156, 114, 63);
     width: 500px;
     height: fit-content;
     width: fit-content;
@@ -9,23 +10,27 @@
     width: fit-content;
     height: fit-content;
     padding: 20px;
-    position: relative;
+    text-align: center;
+    /* position: relative;
     left: 300px;
-    top: 20px;
+    top: 20px; */
+}
+#mark{
+  animation: lawal 5s ease  infinite;
 }
 .werey{
     
         
-        color: red;
+        color: rgb(255, 174, 0);
         animation-name: example;
         animation-duration: 10s;
 }
       
       @keyframes example{
-        0%   {color: red;}
+        0%   {color:wheat;}
         100%  {color: yellow;}
-        50%  {color: blue;}
-        100% {color: green;}
+        50%  {color:orange;}
+        100% {color: lavender;}
       }
 
 

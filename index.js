@@ -2,7 +2,7 @@
 function action()
 {
 var p = document.getElementById('number').value;
-var a = 1111;
+var a = '0000'
 if(p==a)
 {
   document.getElementById('demo').innerHTML = 'please choose transcation';
@@ -61,6 +61,7 @@ function web(){
   var m = 100000;
   if(p<m)
   {
+    
    document.getElementById('demo2').innerHTML = 'sucessful';
    document.getElementById('display').style.display = "block";
    
